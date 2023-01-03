@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", sans-serif;
+    background: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: darkblue;
+    margin: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    color: darkblue;
+}
+
+input {
+    font-family: "Caveat", sans-serif;
+    font-size: 20px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-color: darkblue;
+    border-width: 2px;
+    width: 250px;
+    color: blueviolet;
+}
+
+button {
+    font-family: "Caveat", sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkblue;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    font-family: "Caveat", sans-serif;
+    font-size: 19px;
+    color: whitesmoke;
+    text-align: center;
+    height: 38px;
+    width: 248px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(26, 26, 179);
+}
+
+img {
+    padding-left: 5px;
+    margin: 0;
+    width: 100%;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+#maindiv {
+    background: linear-gradient(180deg, whitesmoke, #d9eee2);
+    border-style: double;
+    border-color: darkblue;
+    height: 350px;
+    width: 500px;
+    margin: 20%;
+}
+
+.inputs {
+    border-left-style: dotted;
+    border-color: darkblue;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.part1container {
+    display: flex;
+}
+
+.part2container {
+    display: flex;
+}
+
+.part3container {
+    display: flex;
+    padding-top: 15px;
+}
+
+.paragraph {
+    padding: 10px;
+}
+
+.part1head {
+    padding: 10px;
+}
+
+.part1image {
+    padding: 10px;
+    padding-left: 240px;
+}
